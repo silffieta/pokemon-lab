@@ -7,15 +7,14 @@ public class ConfideMove extends StatusMove {
         super(type, pow, acc);
     }
 
-    private static int count = 0;
-/*
     @Override
-    protected void applyOppEffects(Pokemon pokemon)                                                              emon) {
-        pokemon.addEffect(new Effect());
+    protected void applyOppEffects(Pokemon pokemon) {
+        Effect myEffect = new Effect();
+        myEffect.stat(Stat.SPECIAL_ATTACK, 1);
         super.applyOppEffects(pokemon);
-
-    }*/
+    }
 }
+
 
 
 
