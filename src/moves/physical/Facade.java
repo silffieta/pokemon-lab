@@ -5,8 +5,8 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Status;
 import ru.ifmo.se.pokemon.Type;
 
-public class FacadeMove extends PhysicalMove {
-    public FacadeMove(Type type, double pow, double acc) {
+public class Facade extends PhysicalMove {
+    public Facade(Type type, double pow, double acc) {
         super(type, pow, acc);
     }
 
@@ -18,5 +18,10 @@ public class FacadeMove extends PhysicalMove {
             return super.calcBaseDamage(atk_pokemon, def_pokemon)*2;
         }
         return super.calcBaseDamage(atk_pokemon, def_pokemon);
+    }
+
+    @Override
+    protected String describe(){
+        return "used " + this.getClass().getSimpleName();
     }
 }

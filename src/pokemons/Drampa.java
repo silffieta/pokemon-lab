@@ -1,9 +1,9 @@
 package pokemons;
-import moves.physical.FacadeMove;
-import moves.special.VenoshockMove;
-import moves.status.ConfideMove;
+import moves.physical.Facade;
+import moves.special.Venoshock;
+import moves.status.Confide;
 import ru.ifmo.se.pokemon.*;
-import moves.status.SwaggerMove;
+import moves.status.Swagger;
 
 
 public final class Drampa extends Pokemon {
@@ -14,10 +14,10 @@ public final class Drampa extends Pokemon {
         this.setStats(78, 60, 85, 135, 91, 36);
         this.setMove(
                 new Move[] {
-                        new SwaggerMove(Type.NORMAL, 0, 85),
-                        new ConfideMove(Type.NORMAL, 0, 100),
-                        new FacadeMove(Type.NORMAL, 70, 100),
-                        new VenoshockMove(Type.POISON, 65, 100)
+                        new Swagger(Type.NORMAL, 0, 85),
+                        new Confide(Type.NORMAL, 0, 100),
+                        new Facade(Type.NORMAL, 70, 100),
+                        new Venoshock(Type.POISON, 65, 100)
                 }
         );
     }
