@@ -15,7 +15,7 @@ public class Venoshock extends SpecialMove {
     }
 
     @Override
-    protected String describe(){
+    protected String describe() {
         return "used " + this.getClass().getSimpleName();
     }
 }
