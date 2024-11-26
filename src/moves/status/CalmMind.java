@@ -2,8 +2,8 @@ package moves.status;
 
 import ru.ifmo.se.pokemon.*;
 
-public class Calm_Mind extends StatusMove {
-    public Calm_Mind(Type type, double pow, double acc) {
+public class CalmMind extends StatusMove {
+    public CalmMind(Type type, double pow, double acc) {
         super(type, pow, acc);
     }
 
@@ -18,6 +18,6 @@ public class Calm_Mind extends StatusMove {
 
     @Override
     protected String describe() {
-        return "used " + this.getClass().getSimpleName();
+        return "used Calm Mind ";
     }
 }

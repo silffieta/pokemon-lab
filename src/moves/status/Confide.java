@@ -14,8 +14,8 @@ public class Confide extends StatusMove {
     }
 
     @Override
-    protected String describe(){
-        return "used " + this.getClass().getSimpleName();
+    protected String describe() {
+        return "used Confide " ;
     }
 }
 

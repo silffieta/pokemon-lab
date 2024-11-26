@@ -15,7 +15,7 @@ public class Swagger extends StatusMove {
 
     @Override
     protected String describe() {
-        return "used " + this.getClass().getSimpleName();
+        return "used Swagger " ;
     }
 }
     

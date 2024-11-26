@@ -2,9 +2,9 @@ package moves.special;
 
 import ru.ifmo.se.pokemon.*;
 
-public class Leaf_Storm extends SpecialMove {
+public class LeafStorm extends SpecialMove {
 
-    public Leaf_Storm(Type type, double pow, double acc) {
+    public LeafStorm(Type type, double pow, double acc) {
         super(type, pow, acc);
     }
 
@@ -16,7 +16,7 @@ public class Leaf_Storm extends SpecialMove {
 
     @Override
     protected String describe() {
-        return "used " + this.getClass().getSimpleName();
+        return "used Leaf Storm" ;
     }
 
 }

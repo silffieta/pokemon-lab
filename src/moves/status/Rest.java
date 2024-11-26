@@ -3,7 +3,9 @@ package moves.status;
 import ru.ifmo.se.pokemon.*;
 
 public class Rest extends SpecialMove {
-    public Rest(Type type, double pow, double acc) { super(type, pow, acc); }
+    public Rest(Type type, double pow, double acc) {
+        super(type, pow, acc);
+    }
 
     @Override
     protected void applySelfEffects(Pokemon pokemon) {
@@ -14,6 +16,6 @@ public class Rest extends SpecialMove {
 
     @Override
     protected String describe() {
-        return "used " + this.getClass().getSimpleName();
+        return "used Rest ";
     }
 }

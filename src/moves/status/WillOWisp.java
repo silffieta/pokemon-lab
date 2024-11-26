@@ -2,8 +2,9 @@ package moves.status;
 
 import ru.ifmo.se.pokemon.*;
 
-public class Will_O_Wisp extends StatusMove {
-    public Will_O_Wisp(Type type, double pow, double acc) {
+public class WillOWisp extends StatusMove {
+
+    public WillOWisp(Type type, double pow, double acc) {
         super(type, pow, acc);
     }
 
@@ -12,7 +13,7 @@ public class Will_O_Wisp extends StatusMove {
     }
 
     @Override
-    protected String describe(){
-        return "used " + this.getClass().getSimpleName();
+    protected String describe() {
+        return "used Will-O-Wisp " ;
     }
 }
